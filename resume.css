@@ -1,0 +1,43 @@
+header {
+  padding: 30px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+footer {
+}
+
+body {
+  font-family: "Roboto", "Noto Sans SC";
+}
+
+.info {
+  display: flex;
+  margin-top: 25px;
+}
+.email {
+  text-align: center;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+.github {
+  text-align: center;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+.phone {
+  text-align: center;
+  flex-direction: column;
+  width: 33.33%;
+}
+main {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.side {
+  float: right;
+  width: 120px;
+}
